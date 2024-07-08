@@ -23,7 +23,7 @@ public class ItemController {
 	@Autowired
 	private ItemService itemService;
 	
-	@PostMapping
+	@PostMapping("/addItem")
 	public Item addItem(@RequestBody Item item) {
 		return itemService.addItem(item);
 	}

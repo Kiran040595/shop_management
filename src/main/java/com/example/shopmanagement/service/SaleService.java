@@ -4,12 +4,14 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.example.shopmanagement.model.Item;
 import com.example.shopmanagement.model.Sale;
 import com.example.shopmanagement.repository.ItemRepository;
 import com.example.shopmanagement.repository.SaleRepository;
 
+@Service
 public class SaleService {
 			
 	

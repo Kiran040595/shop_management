@@ -20,5 +20,7 @@ public class AlertController {
     @PostMapping
     public Alert addAlert(@RequestBody Alert alert) {
         return alertService.addAlert(alert); // Calls the addAlert method in the service layer
+        
+        
     }
 }
